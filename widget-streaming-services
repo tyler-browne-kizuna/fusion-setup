@@ -1,593 +1,586 @@
-{
-  "exportType": "fusionWidgets",
-  "exportVersion": 1,
-  "requiredAddons": [
-    "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json"
-  ],
-  "widgets": [
-    {
-      "id": "collection.e83535dc-63b5-4218-a4fe-e44445b3ea4c",
-      "title": "Streaming Services",
-      "hideTitle": false,
-      "type": "collection.row",
-      "dataSource": {
-        "kind": "collection",
-        "payload": {
-          "items": [
-            {
-              "id": "a40f4683-e52a-4471-bb48-866fee61c351",
-              "title": "Netflix",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158623",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158622",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.160016",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.160018",
-                    "type": "series"
-                  }
+[
+  {
+    "id": "collection.e83535dc-63b5-4218-a4fe-e44445b3ea4c",
+    "title": "Streaming Services",
+    "hideTitle": false,
+    "type": "collection.row",
+    "dataSource": {
+      "kind": "collection",
+      "payload": {
+        "items": [
+          {
+            "id": "a40f4683-e52a-4471-bb48-866fee61c351",
+            "title": "Netflix",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158623",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/3R9D8yrK/netflix.png"
-            },
-            {
-              "id": "002c7f6f-a8e2-415d-bb3b-09608262e5e6",
-              "title": "Disney+",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158635",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158634",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.160024",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.160029",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158622",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/pTknW9VP/disney.png"
-            },
-            {
-              "id": "1d8b556f-ea46-42ff-b5a9-be9b81623239",
-              "title": "Apple TV",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158629",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158630",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.160030",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.160031",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160016",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/j5vJxWqT/apple-tv.png"
-            },
-            {
-              "id": "72a45acc-e0ee-4359-a840-bda64a9d2b17",
-              "title": "Prime Video",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158637",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158636",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.160032",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.160034",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.160018",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/JzkSVMTy/prime-video.png"
-            },
-            {
-              "id": "5427f063-1588-42ba-8475-32e1df11eda6",
-              "title": "HBO Max",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158643",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158644",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.160035",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.160036",
-                    "type": "series"
-                  }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/3R9D8yrK/netflix.png"
+          },
+          {
+            "id": "002c7f6f-a8e2-415d-bb3b-09608262e5e6",
+            "title": "Disney+",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158635",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/3R9D8yr8/hbo-max.png"
-            },
-            {
-              "id": "feb43b28-1664-4b3d-9706-4b2b3e3e836c",
-              "title": "Paramount+",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158646",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158645",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.160038",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.160039",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158634",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/gJ46zwcm/paramount.png"
-            },
-            {
-              "id": "94a61643-3a81-41d4-a69e-2b04d1db3be7",
-              "title": "Hulu",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158639",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158640",
-                    "type": "movie"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160024",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/bNM4BsR1/hulu.png"
-            },
-            {
-              "id": "07740d38-3b21-43e4-9047-23743f522f97",
-              "title": "Peacock",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158647",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158648",
-                    "type": "movie"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.160029",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/fR91nDHV/peacock.png"
-            },
-            {
-              "id": "c3b44132-6054-48eb-bfbc-1db52a78f671",
-              "title": "STARZ",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158650",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158649",
-                    "type": "series"
-                  }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/pTknW9VP/disney.png"
+          },
+          {
+            "id": "1d8b556f-ea46-42ff-b5a9-be9b81623239",
+            "title": "Apple TV",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158629",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/4NZrCrDB/starz.png"
-            },
-            {
-              "id": "9efbc057-d763-40e1-bffa-246cb2c5576e",
-              "title": "MUBI",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158652",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158651",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158630",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/26RLyjtL/mubi.png"
-            },
-            {
-              "id": "77fcef87-067e-457f-9478-162b95681db0",
-              "title": "Crunchyroll",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158641",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158642",
-                    "type": "movie"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160030",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/Prc0RPMp/crunchyroll.png"
-            },
-            {
-              "id": "b4ae6302-4f6f-4393-b3aa-b546b59c4656",
-              "title": "The Criterion Channel",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158668",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158667",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.160031",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/KvTrvTfN/criterion-channel.png"
-            },
-            {
-              "id": "c4baf66f-1a72-4da3-a01c-8471a04ff8ed",
-              "title": "Shudder",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158654",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158653",
-                    "type": "series"
-                  }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/j5vJxWqT/apple-tv.png"
+          },
+          {
+            "id": "72a45acc-e0ee-4359-a840-bda64a9d2b17",
+            "title": "Prime Video",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158637",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/76XTHCPD/shudder.png"
-            },
-            {
-              "id": "87a8f2b9-0140-46f7-885b-d097f53a390d",
-              "title": "AMC+",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158657",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158656",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158636",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/KctdHZHg/amc.png"
-            },
-            {
-              "id": "190afb6d-970c-4da3-8049-a1e201fbb8f6",
-              "title": "britbox",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158658",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158659",
-                    "type": "movie"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160032",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/pX736pBm/britbox.png"
-            },
-            {
-              "id": "613d0d19-d42e-4561-8e5b-dc874797490b",
-              "title": "Discovery+",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158665",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158666",
-                    "type": "movie"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.160034",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/2jnPKzKL/discovery.png"
-            },
-            {
-              "id": "e78269ac-d4ab-472b-a512-726a85396302",
-              "title": "Curiosity Stream",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158664",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158663",
-                    "type": "series"
-                  }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/JzkSVMTy/prime-video.png"
+          },
+          {
+            "id": "5427f063-1588-42ba-8475-32e1df11eda6",
+            "title": "HBO Max",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158643",
+                  "type": "series"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/RZX6s8cF/curiosity.png"
-            },
-            {
-              "id": "3866a628-249c-47dc-b107-24727550987b",
-              "title": "MagellanTV",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158661",
-                    "type": "movie"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158660",
-                    "type": "series"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158644",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/kMWkpnpx/magellantv.png"
-            },
-            {
-              "id": "807a5062-2ec6-4cc9-8411-22bd6c868f74",
-              "title": "Netflix Kids",
-              "hideTitle": false,
-              "imageAspect": "wide",
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "series::mdblist.158669",
-                    "type": "series"
-                  }
-                },
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
-                    "catalogId": "movie::mdblist.158670",
-                    "type": "movie"
-                  }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160035",
+                  "type": "movie"
                 }
-              ],
-              "imageURL": "https://i.postimg.cc/fTZ646GC/netflix-kids.png"
-            }
-          ]
-        }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.160036",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/3R9D8yr8/hbo-max.png"
+          },
+          {
+            "id": "feb43b28-1664-4b3d-9706-4b2b3e3e836c",
+            "title": "Paramount+",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158646",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158645",
+                  "type": "series"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160038",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.160039",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/gJ46zwcm/paramount.png"
+          },
+          {
+            "id": "94a61643-3a81-41d4-a69e-2b04d1db3be7",
+            "title": "Hulu",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158639",
+                  "type": "series"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158640",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/bNM4BsR1/hulu.png"
+          },
+          {
+            "id": "07740d38-3b21-43e4-9047-23743f522f97",
+            "title": "Peacock",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158647",
+                  "type": "series"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158648",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/fR91nDHV/peacock.png"
+          },
+          {
+            "id": "c3b44132-6054-48eb-bfbc-1db52a78f671",
+            "title": "STARZ",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158650",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158649",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/4NZrCrDB/starz.png"
+          },
+          {
+            "id": "9efbc057-d763-40e1-bffa-246cb2c5576e",
+            "title": "MUBI",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158652",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158651",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/26RLyjtL/mubi.png"
+          },
+          {
+            "id": "77fcef87-067e-457f-9478-162b95681db0",
+            "title": "Crunchyroll",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158641",
+                  "type": "series"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158642",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/Prc0RPMp/crunchyroll.png"
+          },
+          {
+            "id": "b4ae6302-4f6f-4393-b3aa-b546b59c4656",
+            "title": "The Criterion Channel",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158668",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158667",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/KvTrvTfN/criterion-channel.png"
+          },
+          {
+            "id": "c4baf66f-1a72-4da3-a01c-8471a04ff8ed",
+            "title": "Shudder",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158654",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158653",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/76XTHCPD/shudder.png"
+          },
+          {
+            "id": "87a8f2b9-0140-46f7-885b-d097f53a390d",
+            "title": "AMC+",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158657",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158656",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/KctdHZHg/amc.png"
+          },
+          {
+            "id": "190afb6d-970c-4da3-8049-a1e201fbb8f6",
+            "title": "britbox",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158658",
+                  "type": "series"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158659",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/pX736pBm/britbox.png"
+          },
+          {
+            "id": "613d0d19-d42e-4561-8e5b-dc874797490b",
+            "title": "Discovery+",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158665",
+                  "type": "series"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158666",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/2jnPKzKL/discovery.png"
+          },
+          {
+            "id": "e78269ac-d4ab-472b-a512-726a85396302",
+            "title": "Curiosity Stream",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158664",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158663",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/RZX6s8cF/curiosity.png"
+          },
+          {
+            "id": "3866a628-249c-47dc-b107-24727550987b",
+            "title": "MagellanTV",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158661",
+                  "type": "movie"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158660",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/kMWkpnpx/magellantv.png"
+          },
+          {
+            "id": "807a5062-2ec6-4cc9-8411-22bd6c868f74",
+            "title": "Netflix Kids",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.158669",
+                  "type": "series"
+                }
+              },
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158670",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/fTZ646GC/netflix-kids.png"
+          }
+        ]
       }
     }
-  ]
-}
+  }
+]
