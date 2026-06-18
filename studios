@@ -1,0 +1,436 @@
+[
+  {
+    "id": "collection.67e489de-2c86-4b6a-b7a1-129d84fcfe98",
+    "title": "Studios",
+    "hideTitle": false,
+    "type": "collection.row",
+    "dataSource": {
+      "kind": "collection",
+      "payload": {
+        "items": [
+          {
+            "id": "f0d4371b-32c6-4649-9681-6f9db31fc95c",
+            "title": "Warner Bros. Pictures",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159685",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/65B5yJLY/warner-bros.png"
+          },
+          {
+            "id": "89d6f6b3-83b9-4d3e-8591-9229229a7779",
+            "title": "Universal Pictures",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159686",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/TYTYpMq9/universal.png"
+          },
+          {
+            "id": "08994ffb-88f7-4fa3-8dce-5e4e6748fda4",
+            "title": "Paramount Pictures",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159687",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/VLzLdQBX/paramount.png"
+          },
+          {
+            "id": "322c2bf0-c9ff-4bb0-bd7e-4a6db96bbec2",
+            "title": "20th Century Studios",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159689",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/QNQd8x5t/20th-century.png"
+          },
+          {
+            "id": "5b62854c-914a-486a-a228-1bb61b7b196e",
+            "title": "Columbia Pictures",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159688",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/dQ2Vstd3/columbia.png"
+          },
+          {
+            "id": "4ddeabe5-6dbd-4455-ada3-0fff965bb120",
+            "title": "Metro-Goldwyn-Mayer",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159684",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/0yNF111W/mgm.png"
+          },
+          {
+            "id": "4085eb70-021a-4a96-984e-1bde5593a9a7",
+            "title": "Marvel Studios",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159690",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/CLwLzTHR/marvel.png"
+          },
+          {
+            "id": "FB1A9901-E045-436A-92CF-1E1DBC50B6BF",
+            "title": "DC Studios",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "traktList",
+                "payload": {
+                  "listName": "DC Universe Movies",
+                  "listSlug": "dc-universe-movies",
+                  "traktId": 9429560,
+                  "username": "RickSanchez"
+                }
+              },
+              {
+                "kind": "traktList",
+                "payload": {
+                  "listName": "DC Animated",
+                  "listSlug": "dc-animated",
+                  "traktId": 6678924,
+                  "username": "Jinzulen"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/7YsshGhH/DC.jpg"
+          },
+          {
+            "id": "d981f91f-41ef-457f-9784-9b623a5357a2",
+            "title": "Lucasfilm",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159677",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/J7Nzr4J3/lucasfilm.png"
+          },
+          {
+            "id": "4226ab62-0e27-48d8-86d3-a7044fdb7157",
+            "title": "Pixar Animation Studios",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159678",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/SNmNJF7W/pixar.png"
+          },
+          {
+            "id": "032bddab-a1e0-4606-89cf-d3ffa917b260",
+            "title": "Walt Disney Animation Studio",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159700",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/tR34qCP6/disney.png"
+          },
+          {
+            "id": "7bb44fe4-2ee0-47d4-add9-a3626c476ef7",
+            "title": "DreamWorks Animation",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159680",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/WpG1Nbrg/dreamworks.png"
+          },
+          {
+            "id": "2816e31f-6c2b-47d0-8acc-35f4baed37ee",
+            "title": "Illumination",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159699",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/bYxwyNbb/illumination.png"
+          },
+          {
+            "id": "2a5e35c4-f51f-49da-a1f2-371ca502c95f",
+            "title": "Studio Ghibli",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159694",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/tR34qCP1/Bild.png"
+          },
+          {
+            "id": "63DBC764-715D-4C55-A28A-924509F40D65",
+            "title": "Legendary",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "traktList",
+                "payload": {
+                  "listName": "Legendary Pictures",
+                  "listSlug": "legendary-pictures",
+                  "traktId": 27476092,
+                  "username": "rhwonderful"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/T1cpzWYZ/legendary.png"
+          },
+          {
+            "id": "a5971fc0-a8fa-42ae-af8d-25a167426b03",
+            "title": "New Line Cinema",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159691",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/0292bRdw/new-line-cinema.png"
+          },
+          {
+            "id": "8696cae1-88ab-4e7e-9e07-c58cf436e87b",
+            "title": "Lionsgate",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159692",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/c1RLx4Yf/lionsgate.png"
+          },
+          {
+            "id": "13CEBC6C-0446-4FE3-86C0-5C30BB7DF858",
+            "title": "Blumhouse",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "traktList",
+                "payload": {
+                  "listName": "Blumhouse",
+                  "listSlug": "blumhouse",
+                  "traktId": 31328842,
+                  "username": "notamongo5"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/rm6L7tcw/blumhouse.png"
+          },
+          {
+            "id": "6a1ebace-9141-4f3d-a86d-a8120e324fa6",
+            "title": "A24",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159693",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/WpG1Nbr1/a24.png"
+          },
+          {
+            "id": "15114A76-4959-4AAB-9D12-2AA99103F171",
+            "title": "NEON",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "traktList",
+                "payload": {
+                  "listName": "NEON Films",
+                  "listSlug": "neon-films",
+                  "traktId": 30917084,
+                  "username": "rizreflects"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/CKrg76rJ/NEONColor-LOGO.jpg"
+          },
+          {
+            "id": "90d4ba37-256a-4e7f-8485-d4d2d9ab1913",
+            "title": "Searchlight Pictures",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159696",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/xT9TcDyv/searchlight.png"
+          },
+          {
+            "id": "e9c949f2-90d2-4246-af15-d7b91dd553be",
+            "title": "Miramax",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159695",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/ZKJKCtFB/miramax.png"
+          },
+          {
+            "id": "f61494d8-8c4d-412a-90ca-bfa9ea55b356",
+            "title": "Touchstone Pictures",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159698",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/PrdrPszb/touchstone.png"
+          },
+          {
+            "id": "102e051d-66b7-4bf8-b8bb-f5f8784874c7",
+            "title": "TriStar Pictures",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159697",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/9FcFr5tb/tristar.png"
+          }
+        ]
+      }
+    }
+  }
+]
