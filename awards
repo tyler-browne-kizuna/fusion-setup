@@ -1,0 +1,151 @@
+[
+  {
+    "id": "collection.f1d7ac87-e211-4f5f-808e-dee9f244957d",
+    "title": "Awards",
+    "hideTitle": false,
+    "type": "collection.row",
+    "dataSource": {
+      "kind": "collection",
+      "payload": {
+        "items": [
+          {
+            "id": "0648a4d1-4705-4e89-afd5-d44f05753bbd",
+            "title": "Academy Awards",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159414",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/fb4dMhv2/academy-awards.png"
+          },
+          {
+            "id": "0d608545-29a2-4250-930e-ff5df95c22cb",
+            "title": "Academy Awards: Best Picture",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159412",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/YScFtwxV/best-picture.png"
+          },
+          {
+            "id": "de470b9b-a496-4d43-b499-82d11d678cd5",
+            "title": "Primetime Emmy Awards",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "series::mdblist.159408",
+                  "type": "series"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/jjz75k8Z/emmys.png"
+          },
+          {
+            "id": "eb0db1b7-d5d6-43c1-b9d4-88a5263ea9ab",
+            "title": "Golden Globe Awards",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.159385",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/k5xb4hjY/golden-globes.png"
+          },
+          {
+            "id": "79253f63-1ea6-4e78-8f18-b2c0c010e622",
+            "title": "BAFTA Film Awards",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160235",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/131RtRL3/bafta.png"
+          },
+          {
+            "id": "f06fa2bb-06ae-4fee-89dc-1ba3d2bc620a",
+            "title": "Cannes Film Festival Awards",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160006",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/cJq3dNc2/cannes.png"
+          },
+          {
+            "id": "021646f6-f90f-4e25-962e-7ac8e1fcbf82",
+            "title": "Venice Film Festival Awards",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160239",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/wBhmvbWb/venice.png"
+          },
+          {
+            "id": "06a40d6b-7692-4a20-9813-d04993d84db6",
+            "title": "Berlin International Film Festival Awards",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.160238",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/hGFmKq0N/berlinale.png"
+          }
+        ]
+      }
+    }
+  }
+]
