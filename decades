@@ -1,0 +1,117 @@
+[
+  {
+    "id": "collection.25a46665-9f85-43e8-953e-b5acbcee026c",
+    "title": "Decades",
+    "hideTitle": false,
+    "type": "collection.row",
+    "dataSource": {
+      "kind": "collection",
+      "payload": {
+        "items": [
+          {
+            "id": "56a46f6a-e981-4ba4-9bde-78e76ebb1f67",
+            "title": "20s Movies",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158796",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/L5jnk6gT/20s.png"
+          },
+          {
+            "id": "4f64f8fe-abf5-4b63-bd7c-fae5dff84438",
+            "title": "10s Movies",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158791",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/br1s0NSR/10s.png"
+          },
+          {
+            "id": "9ba9dfb0-608e-4bf3-8a86-10ad39ed337f",
+            "title": "00s Movies",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158792",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/RhwN1VJK/00s.png"
+          },
+          {
+            "id": "22590847-de17-4756-9234-5331a0880fe8",
+            "title": "90s Movies",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158793",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/J7XDCKYH/90s.png"
+          },
+          {
+            "id": "4da0f59f-a262-46c3-bbee-aefcd0ea2d74",
+            "title": "80s Movies",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158794",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/qBKhHQDz/80s.png"
+          },
+          {
+            "id": "638bd3c4-b8fe-4cc2-af9d-04d3a62ccc26",
+            "title": "70s Movies",
+            "hideTitle": false,
+            "imageAspect": "wide",
+            "dataSources": [
+              {
+                "kind": "addonCatalog",
+                "payload": {
+                  "addonId": "https://aiometadata.viren070.me/stremio/1fad2db7-6422-4533-927e-37c0e5201a79/manifest.json",
+                  "catalogId": "movie::mdblist.158795",
+                  "type": "movie"
+                }
+              }
+            ],
+            "imageURL": "https://i.postimg.cc/VvXd9L0j/70s.png"
+          }
+        ]
+      }
+    }
+  }
+]
